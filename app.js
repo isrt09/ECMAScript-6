@@ -23,3 +23,26 @@ function calculation(a,b,...etc){
     console.log(sum);
 }
 calculation(10,20,5,5,5);
+
+// Normal Function
+function myName(name){
+    return name;
+}
+console.log(myName('Mazedur Rahman'));
+
+function myVillage(name){
+    console.log(name);
+}
+myVillage('Noakhali');
+
+// Dynamic Function
+let city = function myCity(city){
+    return city;
+}
+console.log(city('Dhaka'));
+
+const district = function myDistrict(name){
+    console.log(name);
+}
+district('Dinajpur');
+
