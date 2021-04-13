@@ -46,3 +46,36 @@ const district = function myDistrict(name){
 }
 district('Dinajpur');
 
+// Local Scope
+function getData(){
+    let value = 'React JS';
+    console.log(value);    
+}
+getData();
+
+
+//Global Scope
+
+function getStudent(){    
+    let name= 'Mizanur Rahman';    
+    console.log(name);    
+}
+getStudent();    
+
+// Let, Var, Const
+
+let x = 10;
+x = 90; // Allow to change new value
+console.log(x);
+
+var y = 20;
+y = 50; // Allowed to update value
+console.log(y);
+
+const z = 30;
+z = 40; // Not Allowed to modify
+console.log(z);
+
+
+
+
