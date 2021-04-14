@@ -78,4 +78,33 @@ console.log(z);
 
 
 
+// For Loop
+
+for(let i=1; i <= 10; i++){    
+    console.log( "RAMADAM "+i);
+}
+
+
+// For of Loop
+
+let arr = ['Dhaka','Sylhet','Rajshahi','Chittagong','Khulna','Jassore'];
+for(let city of arr){
+    console.log(city);
+}
+
+// Object for ES 6
+
+const Bank = {
+    name   : 'AB Bank',
+    branch : 'Dhanmondi',
+    code   : 'SWIFT3012',
+    phone  : '01916178400',
+    type   : 'private',
+    central: {
+        account : 'Saving',
+        FDR     :  'Yes',
+        DOP     :  'Yes'
+    }
+}
+console.log(Bank.central);
 
