@@ -108,3 +108,14 @@ const Bank = {
 }
 console.log(Bank.central);
 
+// Loop in Objects
+const GYM = {
+    name : 'Bangladesh GYM',
+    fees : '1200 BDT',
+    type : 'premium',
+    time : 'morning'
+}
+
+for(let member in GYM){
+    console.log(member+":"+GYM[member]);
+}
